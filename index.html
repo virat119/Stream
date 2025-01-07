@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primflix - Your Movie Paradise</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <!-- Replace text with PNG logo -->
+      <img src="https://raw.githubusercontent.com/virat119/Stream/refs/heads/main/InShot_20250107_181255787_processed.jpg (1).png" alt="Primflix Logo" class="logo-image">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="https://t.me/Movieshdbox123">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+    <!-- Telegram Link -->
+    <div class="telegram-link">
+        <a href="https://t.me/Movieshdbox123" target="_blank">
+            <img src="https://raw.githubusercontent.com/virat119/viratu/refs/heads/main/Images/tg.png" alt="Join us on Telegram">
+        </a>
+    </div>
+
+
+
+
+
+
+<div class="container">
+    <input type="text" id="search-bar" placeholder="Search Movies Here..." onkeyup="suggestMovies()">
+    <button id="search-button" onclick="searchMovies()">Search</button>
+    <ul id="suggestions"></ul>
+  </div>
+
+
+  <section id="movies">
+    <div class="movie-list">
+      <div class="movie-card" data-title="Anora" onclick="window.location.href='English/Movie1.html'">
+        <img src="https://raw.githubusercontent.com/virat119/viratu/refs/heads/main/Images/mbZQsj9e5MmxLWsHdyew7di30aM.webp" alt="Movie 1">
+        <h3>Anora</h3>
+      </div>
+      <div class="movie-card" data-title="Red one" onclick="window.location.href='English/Movie2.html'">
+        <img src="https://raw.githubusercontent.com/virat119/images/refs/heads/main/download (1).webp" alt="Movie 2">
+        <h3>Red one</h3>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Add more movie cards as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Primflix. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
