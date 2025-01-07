@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Title - Stream Now</title>
+
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #1f1f1f;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo-image {
+      width: 160%;
+      max-width: 300px;
+      height: auto;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    .nav-links a:hover {
+      color: #ff4500;
+    }
+
+    /* Movie Section */
+    .movie-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 30px;
+      gap: 20px;
+    }
+
+    .poster {
+      flex: 1;
+      text-align: center;
+    }
+
+    .poster img {
+      width: 180px;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .details {
+      flex: 2;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .details h1 {
+      font-size: 1.4em;
+      color: #f2f2f2;
+    }
+
+    .details p {
+      margin: 5px 0;
+      font-size: 0.8em;
+      color: #bbbbbb;
+    }
+
+    .details p strong {
+      color: #ff4500;
+    }
+
+    /* Video Player Section */
+    .video-player {
+      flex-basis: 100%;
+      margin-top: 20px;
+      text-align: center;
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-player iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 12px;
+      background-color: #000;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Fullscreen Button */
+    .fullscreen-btn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #ff4500;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .fullscreen-btn:hover {
+      background-color: #ff6500;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f1f1f;
+      color: #bbbbbb;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="https://raw.githubusercontent.com/virat119/Stream/refs/heads/main/InShot_20250107_181255787_processed.jpg (1).png" alt="Primflix Logo" class="logo-image">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Movies</a></li>
+        <li><a href="https://t.me/Movieshdbox123">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Movie Section -->
+  <section class="movie-section">
+    <!-- Poster -->
+    <div class="poster">
+      <img src="https://raw.githubusercontent.com/virat119/viratu/refs/heads/main/Images/mbZQsj9e5MmxLWsHdyew7di30aM.webp" alt="Movie Poster">
+    </div>
+
+    <!-- Details -->
+    <div class="details">
+      <h1>Anora</h1>
+      <p><strong>Release Year:</strong> 2024</p>
+      <p><strong>Language:</strong> English, </p>
+      <p><strong>Description:</strong> Sexual Adult movies 18+.</p>
+    </div>
+
+    <!-- Video Player -->
+    <div class="video-player" id="videoPlayer">
+      <iframe src="https://pub-51b90112ce364c91978b92138322581c.r2.dev/Anora.2024.720p.WEB-DL.x264.ESub.KMMOVIES.TOP.mkv?response-content-disposition=attachment;filename=Anora.2024.720p.WEB-DL.x264.ESub.KMMOVIES.TOP.mkv" allowfullscreen></iframe>
+    </div>
+
+    <!-- Fullscreen Button -->
+    <button class="fullscreen-btn" onclick="goFullScreen()">Go Fullscreen</button>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 PrimFlicks. All Rights Reserved.</p>
+  </footer>
+
+<script src="plyar.js"></script>
+  </script>
+</body>
+</html>
