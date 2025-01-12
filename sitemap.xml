@@ -11,42 +11,57 @@
   <loc>https://primeflicks.site/</loc>
   <lastmod>2025-01-07T19:54:50+00:00</lastmod>
   <priority>1.00</priority>
+  <changefreq>daily</changefreq>
 </url>
 
 <url>
   <loc>https://primeflicks.site/index.html</loc>
   <lastmod>2025-01-07T19:54:50+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 <url>
   <loc>https://primeflicks.site/English/Movie1.html</loc>
   <lastmod>2025-01-07T19:54:50+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 <url>
   <loc>https://primeflicks.site/English/Movie2.html</loc>
   <lastmod>2025-01-07T19:54:50+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 <url>
   <loc>https://primeflicks.site/English/Movie3.html</loc>
   <lastmod>2025-01-07T19:54:50+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 <url>
   <loc>https://primeflicks.site/English/Movie4.html</loc>
   <lastmod>2025-01-07T19:54:50+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 <url>
   <loc>https://primeflicks.site/English/Movie5.html</loc>
   <lastmod>2025-01-07T19:54:50+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<!-- New entry for South folder -->
+<url>
+  <loc>https://primeflicks.site/South/marco.html</loc>
+  <lastmod>2025-01-07T19:54:50+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 </urlset>
