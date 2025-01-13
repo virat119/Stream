@@ -54,9 +54,16 @@
         <changefreq>weekly</changefreq>
     </url>
 
-    <!-- New entry for South folder -->
     <url>
         <loc>https://primeflicks.site/South/marco.html</loc>
+        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
+        <priority>0.64</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- New entry for English/mufasa.html -->
+    <url>
+        <loc>https://primeflicks.site/English/mufasa.html</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
         <priority>0.64</priority>
         <changefreq>weekly</changefreq>
