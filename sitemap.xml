@@ -21,9 +21,17 @@
         <changefreq>weekly</changefreq>
     </url>
 
-    <!-- English Category Page -->
+    <!-- English Category Page for Mufasa -->
     <url>
         <loc>https://primeflicks.site/English/mufasa.html</loc>
+        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
+        <priority>0.80</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- English Category Page for Diddy Monster's Fall 2025 -->
+    <url>
+        <loc>https://primeflicks.site/English/Diddy%20Monster%27s%20Fall%202025.html</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
         <priority>0.80</priority>
         <changefreq>weekly</changefreq>
