@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: http://primeflicks.site
+
 Allow: /
 
 Sitemap: https://primeflicks.site/sitemap.xml
