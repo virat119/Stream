@@ -70,14 +70,14 @@ nav ul li a:hover {
 }
 
 #movies {
-  padding: 40px 20px;
+  padding: 20px 10px;
 }
 
 .movie-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; /* Added to create space between items */
-  gap: 20px; /* Ensures some gap between cards */
+  gap: 30px; /* Ensures some gap between cards */
 }
 
 .movie-card {
