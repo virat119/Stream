@@ -3,8 +3,9 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <!-- Updated Sitemap -->
 
+    <!-- Root Domain -->
     <url>
         <loc>https://primeflicks.site/</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
@@ -12,60 +13,19 @@
         <changefreq>daily</changefreq>
     </url>
 
+    <!-- South Category Page -->
     <url>
-        <loc>https://primeflicks.site/index.html</loc>
+        <loc>https://primeflicks.site/South/marco.html</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
         <priority>0.80</priority>
         <changefreq>weekly</changefreq>
     </url>
 
-    <url>
-        <loc>https://primeflicks.site/English/Movie1.html</loc>
-        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
-        <priority>0.64</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <url>
-        <loc>https://primeflicks.site/English/Movie2.html</loc>
-        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
-        <priority>0.64</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <url>
-        <loc>https://primeflicks.site/English/Movie3.html</loc>
-        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
-        <priority>0.64</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <url>
-        <loc>https://primeflicks.site/English/Movie4.html</loc>
-        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
-        <priority>0.64</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <url>
-        <loc>https://primeflicks.site/English/Movie5.html</loc>
-        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
-        <priority>0.64</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <url>
-        <loc>https://primeflicks.site/South/marco.html</loc>
-        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
-        <priority>0.64</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <!-- New entry for English/mufasa.html -->
+    <!-- English Category Page -->
     <url>
         <loc>https://primeflicks.site/English/mufasa.html</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
-        <priority>0.64</priority>
+        <priority>0.80</priority>
         <changefreq>weekly</changefreq>
     </url>
 
