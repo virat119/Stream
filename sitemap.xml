@@ -37,4 +37,11 @@
         <changefreq>weekly</changefreq>
     </url>
 
+    <!-- English Category Page for Sonic 3 -->
+    <url>
+        <loc>https://primeflicks.site/English/Sonic3.html</loc>
+        <lastmod>2025-01-14T19:54:50+00:00</lastmod>
+        <priority>0.80</priority>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>
