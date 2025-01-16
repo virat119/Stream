@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Updated Sitemap -->
 
-    <!-- Root Domain -->
+    <!-- Root Domain (Index Page) -->
     <url>
         <loc>https://primeflicks.site/</loc>
-        <lastmod>2025-01-07T19:54:50+00:00</lastmod>
+        <lastmod>2025-01-16T19:54:50+00:00</lastmod> <!-- Update today's date and time for index.html -->
         <priority>1.00</priority>
-        <changefreq>daily</changefreq>
+        <changefreq>daily</changefreq> <!-- Daily update for index.html -->
     </url>
 
     <!-- South Category Page -->
@@ -18,30 +15,26 @@
         <loc>https://primeflicks.site/South/marco.html</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
         <priority>0.80</priority>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq> <!-- Monthly update for this page -->
     </url>
 
-    <!-- English Category Page for Mufasa -->
+    <!-- English Category Pages -->
     <url>
         <loc>https://primeflicks.site/English/mufasa.html</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
         <priority>0.80</priority>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq> <!-- Monthly update for this page -->
     </url>
-
-    <!-- English Category Page for Diddy Monster's Fall 2025 -->
     <url>
         <loc>https://primeflicks.site/English/Diddy%20Monster%27s%20Fall%202025.html</loc>
         <lastmod>2025-01-07T19:54:50+00:00</lastmod>
         <priority>0.80</priority>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq> <!-- Monthly update for this page -->
     </url>
-
-    <!-- English Category Page for Sonic 3 -->
     <url>
         <loc>https://primeflicks.site/English/Sonic3.html</loc>
         <lastmod>2025-01-14T19:54:50+00:00</lastmod>
         <priority>0.80</priority>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq> <!-- Monthly update for this page -->
     </url>
 </urlset>
