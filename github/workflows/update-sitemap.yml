@@ -1,0 +1,37 @@
+name: Update Sitemap
+
+on:
+  push:
+    branches:
+      - main  # Jab bhi main branch par changes honge, yeh workflow run karega
+  schedule:
+    - cron: "0 0 * * *"  # Har din raat ke 12 baje (UTC) yeh workflow chalega
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest  # Ubuntu environment mein yeh run hoga
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install required dependencies
+        run: |
+          pip install datetime
+
+      - name: Update sitemap with current date
+        run: |
+          python update_sitemap.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "virat119"
+          git config --global user.email "bablukharwar69@gmail.com"
+          git add sitemap.xml
+          git commit -m "Update sitemap with current date"
+          git push origin main
