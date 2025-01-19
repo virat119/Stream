@@ -94,33 +94,58 @@
 <div class="server-buttons" id="serverButtons"></div>
 
 <script>
-  // Get the Play button, iframe, and Switch Video button
+  // Get Play button, iframe, and server buttons container
   const playButton = document.getElementById('playButton');
   const iframe = document.getElementById('iframe');
-  const switchVideoBtn = document.getElementById('switchVideoBtn');
+  const serverButtons = document.getElementById('serverButtons');
 
-  // Set initial video source
-  let mainVideo = "https://ghbrisk.com/e/7du11m3bthfz";
-  let backupVideo = "https://ryderjet.com/embed/f0p2i8geohlp"; // Replace with your backup video link
+  // Array of video servers
+  const videoServers = [
+    { name: "Server 1", url: "https://ghbrisk.com/e/7du11m3bthfz" },
+    { name: "Server 2", url: "https://ryderjet.com/embed/f0p2i8geohlp" },
 
-  // When play button is clicked, display the iframe and autoplay the video
+    // Add more servers here
+  ];
+
+  // Variable to store the current video URL
+  let currentVideo = null;
+
+  // Dynamically create server buttons
+  videoServers.forEach((server, index) => {
+    const button = document.createElement('button');
+    button.innerText = server.name;
+    button.className = 'server-btn';
+    button.addEventListener('click', () => switchServer(server.url, server.name));
+    serverButtons.appendChild(button);
+  });
+
+  // Switch server function
+  function switchServer(url, serverName) {
+    if (currentVideo === url) {
+      alert(`${serverName} pehle se hi chal raha hai.`);
+      return;
+    }
+    currentVideo = url; // Set the current video URL
+    iframe.src = ''; // Stop the current video
+    setTimeout(() => {
+      iframe.src = currentVideo + "?autoplay=1"; // Load and autoplay the selected server video
+      iframe.style.display = 'block'; // Show the iframe
+      playButton.style.display = 'none'; // Hide the play button
+    }, 200); // Small delay before loading new video
+  }
+
+  // Play button functionality
   playButton.addEventListener('click', () => {
+    if (!currentVideo) {
+      alert("Kripya server select karein video play karne ke liye.");
+      return;
+    }
     playButton.style.display = 'none'; // Hide the play button
     iframe.style.display = 'block'; // Show the iframe
-    iframe.src = mainVideo + "?autoplay=1"; // Start playing the main video
-  });
-
-  // When the switch video button is clicked, close the current video and load the backup video
-  switchVideoBtn.addEventListener('click', () => {
-    // Close the current video by setting iframe src to an empty string
-    iframe.src = '';
-
-    // Set a small delay to ensure the iframe is cleared before loading the new video
-    setTimeout(() => {
-      iframe.src = backupVideo + "?autoplay=1"; // Load the backup video and autoplay
-    }, 200); // 200ms delay before switching to the backup video
+    iframe.src = currentVideo + "?autoplay=1"; // Start playing the selected video
   });
 </script>
+
 <!-- Fullscreen Button -->
     <button class="fullscreen-btn" onclick="goFullScreen()">Go Fullscreen</button>
   </section>
