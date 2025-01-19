@@ -82,7 +82,7 @@
 
 <!-- Video Player -->
 <div class="video-player" id="videoPlayer" style="position: relative; display: inline-block;">
-  <iframe id="iframe" src="" class="download-button watch-online" allowfullscreen style="width: 100%; height: 100%; display: none;"></iframe>
+  <iframe id="iframe" src="" allowfullscreen style="width: 100%; height: 100%; display: none;"></iframe>
 
   <!-- Play Button Overlay -->
   <div id="playButton" class="play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer; background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 50%; color: white;">
@@ -90,10 +90,8 @@
   </div>
 </div>
 
-<!-- Switch Video Button -->
-<div class="switch-video-btn" id="switchVideoBtn">
-  Switch Second Player
-</div>
+<!-- Server Buttons -->
+<div class="server-buttons" id="serverButtons"></div>
 
 <script>
   // Get the Play button, iframe, and Switch Video button
