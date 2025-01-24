@@ -1,44 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://primeflicks.site/</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://primeflicks.site/index.html</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://primeflicks.site/English/back-in-action-movie.html</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://primeflicks.site/bollywood/azaad-2025-hindi-movie.html</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://primeflicks.site/English/Sonic3.html</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://primeflicks.site/English/Diddy%20Monster&apos;s%20Fall%202025.html</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://primeflicks.site/English/mufasa.html</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://primeflicks.site/South/marco.html</loc>
-	<lastmod>2025-01-19T22:59:58+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
+<!-- created with www.mysitemapgenerator.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://primeflicks.site/</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/index.html</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/English/back-in-action-movie.html</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/bollywood/sky-force-bollywood-hindi-2025-movies-download.html</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/bollywood/azaad-2025-hindi-movie.html</loc> <!-- Added Azaad movie page -->
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod> <!-- Updated with today's date -->
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/English/Sonic3.html</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/English/Diddy%20Monster&apos;s%20Fall%202025.html</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/English/mufasa.html</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://primeflicks.site/South/marco.html</loc>
+        <lastmod>2025-01-24T10:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+    </url>
 </urlset>
